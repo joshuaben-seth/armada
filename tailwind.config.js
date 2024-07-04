@@ -2,7 +2,16 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        prospac: ['Prospac'],
+        raleway: ['Raleway']
+      },
+      letterSpacing: {
+        semihuge: '.4em',
+        huge: '2em'
+      }
+    },
   },
   plugins: [],
 }
