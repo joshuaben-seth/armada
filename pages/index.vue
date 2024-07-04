@@ -13,7 +13,16 @@ const description = 'Discover a wide selection of new, used, and accidented cars
       { name: 'keywords', content: 'buy cars, new cars, used cars, accidented cars, car rentals, car savings plans, exotic cars, regular cars, car dealership, car finance, automotive sales, luxury cars, affordable cars, car buying tips' },
       { name: 'robots', content: 'index, follow' },
       { name: 'author', content: siteName },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+      { property: 'og:title', content: title },
+      { property: 'og:description', content: description },
+      { property: 'og:image', content: siteImage },
+      { property: 'og:url', content: 'https://armadazone.com' },
+      { property: 'og:type', content: 'website' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: title },
+      { name: 'twitter:description', content: description },
+      { name: 'twitter:image', content: siteImage },
   ]
 })
 
