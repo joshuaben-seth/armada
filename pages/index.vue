@@ -23,7 +23,7 @@ const description = 'Discover a wide selection of new, used, and accidented cars
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: siteImage },
-  ]
+    ]
 })
 
 useSeoMeta({
