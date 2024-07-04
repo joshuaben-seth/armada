@@ -35,5 +35,14 @@
       { name: 'whatsapp:description', content: 'Discover a wide selection of new, used, and accidented cars at Armada. We also offer car rentals and innovative savings plans to help you buy your dream car. Explore exotic and regular cars, save towards your purchase, and enjoy an immersive car-buying experience. Visit our site for the latest inventory updates and expert car tips.' },
       { name: 'whatsapp:image', content: 'https://armadazone.com/images/luxury.png' },
     ]
-  })
-  </script>
+})
+
+useSeoMeta({
+  title: 'Buy New, Used, and Accidented Cars | Car Rentals & Savings Plans - Armada',
+  ogTitle: 'Buy New, Used, and Accidented Cars | Car Rentals & Savings Plans - Armada',
+  description: 'Discover a wide selection of new, used, and accidented cars at Armada. We also offer car rentals and innovative savings plans to help you buy your dream car. Explore exotic and regular cars, save towards your purchase, and enjoy an immersive car-buying experience. Visit our site for the latest inventory updates and expert car tips.',
+  ogDescription: 'Discover a wide selection of new, used, and accidented cars at Armada. We also offer car rentals and innovative savings plans to help you buy your dream car. Explore exotic and regular cars, save towards your purchase, and enjoy an immersive car-buying experience. Visit our site for the latest inventory updates and expert car tips.',
+  ogImage: 'https://armadazone.com/images/luxury.png',
+  twitterCard: 'summary_large_image',
+})
+</script>
